@@ -1,0 +1,12 @@
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\entity\PhoneNumber.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\entity\DataEntry.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\service\PhoneNumberService.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\DTO\PhoneNumberValidationResult.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\dao\PhoneNumberDAO.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\repository\PhoneNumberRepository.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\dao\impl\PhoneNumberDAOImpl.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\repository\DataEntryRepository.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\service\impl\PhoneNumberServiceImpl.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\config\PhoneNumberValidator.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\controller\PhoneController.java
+C:\Users\39349\Documents\colloquio\PhoneValidator\src\main\java\DTO\PhoneNumberExtraction.java

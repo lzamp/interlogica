@@ -1,0 +1,12 @@
+dao\PhoneNumberDAO.class
+dao\impl\PhoneNumberDAOImpl.class
+service\impl\PhoneNumberServiceImpl.class
+entity\DataEntry.class
+entity\PhoneNumber.class
+repository\DataEntryRepository.class
+controller\PhoneController.class
+DTO\PhoneNumberValidationResult.class
+repository\PhoneNumberRepository.class
+DTO\PhoneNumberExtraction.class
+service\PhoneNumberService.class
+config\PhoneNumberValidator.class
