@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone Number Validation</title>
+    <style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures even distribution of column widths */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+h4 {
+    margin-top: 0;
+}
+</style>
+
+    <script src="/js/app.js"></script> <!-- Link al file JavaScript esterno -->
+</head>
+<body>
+<h1>Phone Number Validation Tool</h1>
+
+<!-- Form per caricare file CSV -->
+<h2>Upload CSV File</h2>
+<form id="csvUploadForm">
+    <input type="file" id="fileInput" accept=".csv">
+    <button type="button" onclick="uploadCSV()">Upload File</button>
+</form>
+<p id="csvUploadResult"></p>
+
+<!-- Form per controllare e salvare un numero di telefono -->
+<h2>Validate and Save Phone Number</h2>
+<form id="phoneNumberForm">
+    <input type="text" id="phoneNumberInput" placeholder="Enter phone number">
+    <button type="button" onclick="validateAndSavePhoneNumber()">Validate and Save</button>
+</form>
+<p id="phoneNumberResult"></p>
+</body>
+</html>
