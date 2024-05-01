@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  mysql-interlogica:
+    image: mysql:5.7
+    container_name: mysql-interlogica
+    restart: always
+    env_file:
+      - pg_num.env
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - pg_num.env
+    depends_on:
+      - mysql-interlogica
+
+volumes:
+  mysql-data:
+    driver: local
